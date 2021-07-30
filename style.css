@@ -1,12 +1,51 @@
-body {background-color:black;font-family:arial;color:white}
-h1{color:grey;font-family:verdana}
-.maindiv {
+*{
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+  }
+  
+  h1 {
+    color: grey;
+    font-family: verdana;
+  }
+  
+  .maindiv {
     background-color: white;
     color: black;
     width: 300px;
     padding: 20px;
     border-radius: 25px;
+    margin: auto;
+  }
+  
+  #result{
+    display:inline-block;
+    padding:5px;
+    margin-top:10px;
+  }
+  
+  .result-border {
+    border: solid 1px grey;
+    border-radius: 5px;
+  }
+  
+  .row {
+    display:flex;
     align-items: center;
-}
-
-
+    margin: 10px 0px;
+    flex-flow: nowrap;
+  }
+  
+  label{
+    flex-grow:1;
+  }
+  
+  #rate-control{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
