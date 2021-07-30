@@ -26,8 +26,8 @@ function compute()
         var year = new Date().getFullYear()+parseInt(years);
         var totalAmount = parseFloat(principal) + interest;
     
-        message = "If you deposit <b>"+principal +"</b>,<br/>At an interest rate of <b>"+rate+"%.</b>,<br/>"
-        message += "You will receive an amount of <b>"+totalAmount+"</b>,<br/>In the year "+year
+        message = "If you deposit <mark>"+principal +"</mark>,<br/>At an interest rate of <mark>"+rate+"%.</mark>,<br/>"
+        message += "You will receive an amount of <mark>"+totalAmount+"</mark>,<br/>In the year "+year
         var elResult = document.getElementById("result");
         elResult.innerHTML = message;
     }
