@@ -27,8 +27,8 @@ function compute()
         var totalAmount = parseFloat(principal) + interest;
     
         message = "If you deposit <mark>"+principal +"</mark>,<br/>At an interest rate of <mark>"+rate+"%.</mark>,<br/>";
-        message += "You will receive an amount of Intrest: <mark>"+interest+"</mark>,<br/>In the year "+year +"<br/>";
-        message += "Total (Principle + Intrest) = <mark>"+totalAmount+"</mark>";
+        message += "You will receive an amount of Intrest: <mark>"+interest+"</mark>,<br/>In the year "+year +"<br/><br/>";
+        message += "Total Amount <b>(Principle + Intrest)</b> = <mark>"+totalAmount+"</mark>";
         var elResult = document.getElementById("result");
         elResult.innerHTML = message;
     }
